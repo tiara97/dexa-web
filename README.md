@@ -2,7 +2,7 @@
 
 Aplikasi absensi _Work From Home_ (WFH) berbasis web dengan fitur foto _webcam_, lengkap dengan dashboard pemantauan untuk manajemen (Admin). Terdiri dari aplikasi _Frontend_ (React) dan _Backend_ (NestJS).
 
-Aplikasi ini digunakan bersama dengan project xxxx
+Aplikasi ini digunakan bersama dengan projek [Dexa API](https://github.com/tiara97/dexa-backend).
 
 ## 💻 Cara Instalasi & Menjalankan Aplikasi
 
@@ -28,7 +28,11 @@ Aplikasi ini digunakan bersama dengan project xxxx
 ### 3. Menjalankan Frontend (React)
 
 1. Buka terminal baru dan masuk ke direktori `dexa-web`.
-2. Jalankan instalasi dependensi dengan perintah:
+2. Buat file `.env` di direktori utama `dexa-web` dan sesuaikan dengan URL backend Anda (opsional jika berbeda dari bawaan):
+   ```env
+   API_URL=http://localhost:5000/api
+   ```
+3. Jalankan instalasi dependensi dengan perintah:
    ```bash
    npm install
    ```

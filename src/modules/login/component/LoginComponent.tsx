@@ -95,10 +95,12 @@ export const LoginComponent: FC<IProps> = (props) => {
               Mock Default Accounts:
               <br />
               Admin:{" "}
-              <span className="font-semibold">NIP: 10001 / pass: admin123</span>
+              <span className="font-semibold">NIP: 10001 / pass: password</span>
               <br />
               Employee:{" "}
-              <span className="font-semibold">NIP: 10099 / pass: password</span>
+              <span className="font-semibold">
+                NIP: 10002 - 10011 / pass: password
+              </span>
             </p>
           </div>
         </div>
